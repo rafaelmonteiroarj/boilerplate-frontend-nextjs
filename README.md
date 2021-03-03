@@ -1,3 +1,5 @@
+![Check Markdown links](https://github.com/React-Avancado/links-estudo/workflows/Check%20Markdown%20links/badge.svg)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
