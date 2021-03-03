@@ -1,15 +1,15 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
 
 type Props = {
   title: string;
-}
+};
 
-export default function Home({ title = "Create Next App" }: Props) {
+export default function Home({ title = 'Create Next App' }: Props) {
   return (
     <div className={styles.container}>
       <Head>
-  <title>{title}</title>
+        <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -65,5 +65,5 @@ export default function Home({ title = "Create Next App" }: Props) {
         </a>
       </footer>
     </div>
-  )
+  );
 }
