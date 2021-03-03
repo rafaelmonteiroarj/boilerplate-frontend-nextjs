@@ -3,11 +3,19 @@
         "browser": true,
         "es2020": true
     },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
-        "plugin:react-hooks/recommended"
+        "plugin:react-hooks/recommended",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:prettier/recommended"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -23,10 +31,10 @@
         "react-hooks"
     ],
     "rules": {
-      "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn",
-      "react/prop-types": "off",
-      "react/react-in-jsx-scope": "off",
-      "@typescript-eslint/explicit-module-boundary-types": ["off"]
+      "react-hooks/rules-of-hooks": "error", /* Verifica regras de ganchos */
+      "react-hooks/exhaustive-deps": "warn", /* Verifica as dependências do efeito */
+      "react/prop-types": "off", /* Desabilitando prop-types devido a utilizar do typescript... evitando conflitos. Definindo o typescript responsavel pela parte de tipos. */
+      "react/react-in-jsx-scope": "off", /* Desabilitando regra, devido ao NextJS importar  o react globalmente. */
+      "@typescript-eslint/explicit-module-boundary-types": ["off"] /* Exigir retorno explícito e tipos de argumento em funções exportadas e métodos de classe pública de classes. */
     }
 }
