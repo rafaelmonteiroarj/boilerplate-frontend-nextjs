@@ -1,3 +1,4 @@
+/** https://jestjs.io/docs/configuration */
 module.exports = {
   testEnvironment: 'jsdom',
   testPathIgnorePatterns: ['/node_modules/', '/.next/'],
