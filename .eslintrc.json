@@ -37,6 +37,7 @@
       "react-hooks/exhaustive-deps": "warn", /* Verifica as dependências do efeito */
       "react/prop-types": "off", /* Desabilitando prop-types devido a utilizar do typescript... evitando conflitos. Definindo o typescript responsavel pela parte de tipos. */
       "react/react-in-jsx-scope": "off", /* Desabilitando regra, devido ao NextJS importar  o react globalmente. */
-      "@typescript-eslint/explicit-module-boundary-types": ["off"] /* Exigir retorno explícito e tipos de argumento em funções exportadas e métodos de classe pública de classes. */
+      "@typescript-eslint/explicit-module-boundary-types": ["off"], /* Exigir retorno explícito e tipos de argumento em funções exportadas e métodos de classe pública de classes. */
+      "@typescript-eslint/no-var-requires": "off"
     }
 }
