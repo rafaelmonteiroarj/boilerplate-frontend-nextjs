@@ -1,21 +1,7 @@
-import { render, screen } from '@testing-library/react';
+export const sum = (a: number, b: number): number => {
+  return a + b;
+};
 
-import Main from '../index';
-
-describe('<Main />', () => {
-  it('should render the heading', () => {
-    const { container } = render(<Main />);
-
-    expect(
-      screen.getByRole('heading', { name: /react avançado/i })
-    ).toBeInTheDocument();
-
-    expect(container.firstChild).toMatchSnapshot();
-  });
-
-  it('should render the colors correctly', () => {
-    const { container } = render(<Main />);
-
-    expect(container.firstChild).toHaveStyle({ 'background-color': '#06092b' });
-  });
+it('adds 1 + 2 to equal 3', () => {
+  expect(sum(1, 2)).toBe(3);
 });
