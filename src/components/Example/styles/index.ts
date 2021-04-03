@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.main`
-  background-color: #06092b;
-  color: #fff;
+import { StyleColors } from '../types';
+
+export const Wrapper = styled.main<StyleColors>`
+  background-color: ${props => props.backgroundColor};
+  color: ${props => props.color};
   width: 100%;
   height: 100%;
   padding: 3rem;
@@ -30,4 +32,10 @@ export const Description = styled.h2`
 export const Illustration = styled.img`
   margin-top: 3rem;
   width: min(30rem, 100%);
+  opacity: 0.4;
+  transition: opacity 0.15s ease-in-out;
+
+  :hover {
+    opacity: 1;
+  }
 `;
