@@ -9,7 +9,6 @@
     "cypress:chrome": "cypress run -b chrome",
     "cypress:open": "cypress open",
     "lint": "eslint src --max-warnings=0",
-    "test:e2e": "jest --projects ./test --runInBand",
     "test:unit": "jest --runInBand",
     "start": "next start",
     "start:dev": "next dev",
