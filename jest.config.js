@@ -18,7 +18,7 @@ module.exports = {
   ] /** Pastas ou arquivos a serem ignorados  */,
   collectCoverage: true /** Indica que as informações de coleta do teste devem ser coletadas e reportadas no console. */,
   collectCoverageFrom: [
-    'src/**/tests/*.ts(x)?',
+    'src/**/*.ts(x)?',
     '!src/**/stories/*.tsx'
   ] /** Um padrão glob relativo à rootDircorrespondência dos arquivos dos quais as informações de cobertura precisam ser coletadas. */
 };
