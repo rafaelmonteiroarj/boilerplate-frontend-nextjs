@@ -15,8 +15,8 @@ const Example = ({
 );
 
 interface Props {
-  title: string;
-  description: string;
+  title?: string;
+  description?: string;
   color?: string;
   backgroundColor?: string;
 }

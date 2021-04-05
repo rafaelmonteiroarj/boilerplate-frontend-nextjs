@@ -1,7 +1,10 @@
-export const sum = (a: number, b: number): number => {
-  return a + b;
-};
+import { render } from '@testing-library/react';
+import Example from '..';
 
-it('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
+describe('Testing example component', () => {
+  it('render component', () => {
+    const { getByText } = render(<Example />);
+    const title = getByText('Boilerplate React');
+    expect(title).toBeInTheDocument();
+  });
 });
