@@ -19,8 +19,14 @@ jobs:
     - name: Linting
       run: yarn lint
 
-    - name: Test
-      run: yarn test
+    - name: Test Unit
+      run: yarn test:unit
+
+    - name: Test 2e2
+        uses: cypress-io/github-action@v2
+        with:
+          build: npm run build
+          start: npm start
 
     - name: Build
       run: yarn build
