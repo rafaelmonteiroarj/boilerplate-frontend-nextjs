@@ -2,6 +2,19 @@ Bem vindo ao Boilerplate NextJS!! :)
 
 Este é um projeto [Next.js] (https://nextjs.org/) inicializado com [`create-next-app`] (https://github.com/vercel/next.js/tree/canary/packages / create-next-app).
 
+## Tecnologias Utilizadas:
+
+- [TypeScript] (https://www.typescriptlang.org/docs/)
+- [ReactJS] (https://pt-br.reactjs.org/docs/getting-started.html)
+- [NextJS] (https://nextjs.org/docs)
+- [Storybook] (https://storybook.js.org/docs/react/get-started/introduction)
+- [Styled Components] (https://styled-components.com/docs)
+- [Plop] (https://plopjs.com/)
+- [Cypress] (https://docs.cypress.io/guides/overview/why-cypress)
+- [React Testing Library] (https://testing-library.com/docs/react-testing-library/intro/)
+- [Prettier] (https://prettier.io/docs/en/)
+- [ESLint] (https://eslint.org/docs/user-guide/configuring/)
+
 ## Começando
 Primeiro, execute o servidor de desenvolvimento:
 
@@ -22,10 +35,18 @@ O diretório `pages/api` é mapeado para` /api/* `. Os arquivos neste diretório
 ## Comandos Básicos
 Comando   | Descrição
 --------- | ------
-yarn dev | rodar servidor de desenvolvimento
 yarn build | gerar pacote de build
-yarn start | rodar servidor em produção
+yarn cypress | executa testes e2e em background
+yarn cypress:open | executa testes e2e em uma janela do navegador
+yarn cypress:chrome | executa testes e2e em uma janela do chrome
+yarn generate | Executa automatização para criação de components no projeto de forma automática
 yarn lint | executa ferramenta de análise de código
+yarn test:unit | executa testes unitários
+yarn start | rodar servidor em produção
+yarn start:dev | rodar servidor de desenvolvimento
+yarn storybook | rodar servidor de desenvolvimento do Storybook
+yarn build-storybook | gerar pacote de build para o storybook
+
 
 ## Saber mais
 
