@@ -22,11 +22,11 @@ jobs:
     - name: Test Unit
       run: yarn test:unit
 
-    - name: Test 2e2
-        uses: cypress-io/github-action@v2
-        with:
-          build: npm run build
-          start: npm start
+    - name: Cypress run
+      uses: cypress-io/github-action@v2
+      with:
+        build: yarn build
+        start: yarn start
 
     - name: Build
       run: yarn build
