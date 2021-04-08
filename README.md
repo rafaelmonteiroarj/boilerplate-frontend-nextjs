@@ -10,6 +10,7 @@ Este é um projeto [Next.js] (https://nextjs.org/) inicializado com [`create-nex
 - [Storybook] (https://storybook.js.org/docs/react/get-started/introduction)
 - [Styled Components] (https://styled-components.com/docs)
 - [Plop] (https://plopjs.com/)
+- [Dependabot] (https://dependabot.com/)
 - [Cypress] (https://docs.cypress.io/guides/overview/why-cypress)
 - [React Testing Library] (https://testing-library.com/docs/react-testing-library/intro/)
 - [Prettier] (https://prettier.io/docs/en/)
