@@ -1,5 +1,5 @@
 context('Actions', () => {
-  beforeEach(() => {
+  before(() => {
     cy.visit('https://example.cypress.io/commands/actions');
   });
 
