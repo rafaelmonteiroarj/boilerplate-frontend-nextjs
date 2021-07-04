@@ -4,7 +4,8 @@ const root = resolve(__dirname);
 
 /** https://jestjs.io/docs/configuration */
 module.exports = {
-  rootDir: root /**  raiz do diretório que contém o arquivo de configuração do Jest */,
+  rootDir:
+    root /**  raiz do diretório que contém o arquivo de configuração do Jest */,
   setupFilesAfterEnv: [
     '<rootDir>/.jest/setup.ts'
   ] /** Uma lista de caminhos para módulos que executam algum código para configurar ou definir a estrutura de teste antes de cada arquivo de teste no conjunto ser executado.  */,
@@ -22,8 +23,9 @@ module.exports = {
   collectCoverage: true /** Indica que as informações de coleta do teste devem ser coletadas e reportadas no console. */,
   collectCoverageFrom: [
     'src/**/*.ts(x)?',
-    '!src/**/stories/*.tsx',
+    '!src/**/stories.tsx',
     '!src/pages/**/*.tsx',
-    '!src/styles/**/*.ts'
+    '!src/styles/**/*.ts',
+    '!src/types/**/*.d.ts'
   ] /** Um padrão glob relativo à rootDircorrespondência dos arquivos dos quais as informações de cobertura precisam ser coletadas. */
 };

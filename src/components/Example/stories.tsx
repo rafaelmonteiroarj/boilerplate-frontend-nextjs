@@ -1,6 +1,6 @@
 import { Meta, Story } from '@storybook/react';
 import { withKnobs, text } from '@storybook/addon-knobs';
-import Example from '..';
+import Example from '.';
 
 export default {
   title: 'Boilerplate/Example',
