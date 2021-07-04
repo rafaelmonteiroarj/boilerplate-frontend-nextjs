@@ -1,6 +1,9 @@
 import styled from 'styled-components';
 
-import { StyleColors } from '../types';
+export type StyleColors = {
+  backgroundColor: string;
+  color: string;
+};
 
 export const Wrapper = styled.main<StyleColors>`
   background-color: ${props => props.backgroundColor};
