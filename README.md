@@ -1,8 +1,8 @@
-Bem vindo ao Boilerplate NextJS!! :) 
+Welcome to Boilerplate NextJS!! :)
 
-Este é um projeto [Next.js] (https://nextjs.org/) inicializado com [`create-next-app`] (https://github.com/vercel/next.js/tree/canary/packages / create-next-app).
+This is a [Next.js] (https://nextjs.org/) project started with [`create-next-app`] (https://github.com/vercel/next.js/tree/canary/packages / create-next-app).
 
-## Tecnologias Utilizadas:
+## Technologies Used:
 
 - [TypeScript] (https://www.typescriptlang.org/docs/)
 - [ReactJS] (https://pt-br.reactjs.org/docs/getting-started.html)
@@ -16,8 +16,8 @@ Este é um projeto [Next.js] (https://nextjs.org/) inicializado com [`create-nex
 - [Prettier] (https://prettier.io/docs/en/)
 - [ESLint] (https://eslint.org/docs/user-guide/configuring/)
 
-## Começando
-Primeiro, execute o servidor de desenvolvimento:
+## Starting
+First, run the development server:
 
 ```bash
 npm run dev
@@ -25,41 +25,47 @@ npm run dev
 yarn dev
 ```
 
-Abra [http: // localhost: 3000] (http: // localhost: 3000) com seu navegador para ver o resultado.
+Open [http://localhost:3000] (http://localhost:3000) with your browser to see the result.
 
-Você pode começar a editar a página modificando `pages/index.js`. A página é atualizada automaticamente conforme você edita o arquivo.
+You can start editing the page by modifying `pages/index.js`. The page automatically refreshes as you edit the file.
 
-[Rotas de API] (https://nextjs.org/docs/api-routes/introduction) podem ser acessadas em [http://localhost:3000/api/hello] (http://localhost:3000/api/hello ) Este endpoint pode ser editado em `pages/api/hello.js`.
+[API Routes] (https://nextjs.org/docs/api-routes/introduction) can be accessed at [http://localhost:3000/api/hello] (http://localhost:3000/api/ hello ) This endpoint can be edited in `pages/api/hello.js`.
 
-O diretório `pages/api` é mapeado para` /api/* `. Os arquivos neste diretório são tratados como [rotas de API] (https://nextjs.org/docs/api-routes/introduction) em vez de páginas React.
+The `pages/api` directory is mapped to ` /api/* `. Files in this directory are treated as [API routes] (https://nextjs.org/docs/api-routes/introduction) rather than React pages.
 
-## Comandos Básicos
-Comando   | Descrição
+## Basic Commands
+commands   | Descriptions
 --------- | ------
-yarn build | gerar pacote de build
-yarn cypress | executa testes e2e em background
-yarn cypress:open | executa testes e2e em uma janela do navegador
-yarn cypress:chrome | executa testes e2e em uma janela do chrome
-yarn generate | Executa automatização para criação de components no projeto de forma automática
-yarn lint | executa ferramenta de análise de código
-yarn test:unit | executa testes unitários
-yarn start | rodar servidor em produção
-yarn start:dev | rodar servidor de desenvolvimento
-yarn storybook | rodar servidor de desenvolvimento do Storybook
-yarn build-storybook | gerar pacote de build para o storybook
+yarn build | generate build pack
+yarn cypress | run e2e tests in the background
+yarn cypress:open | runs e2e tests in a browser window
+yarn cypress:chrome | run e2e tests in a chrome window
+yarn generate | Perform automation to create components in the project automatically
+yarn lint | run code analysis tool
+yarn test:unit | perform unit tests
+yarn start | run server in production
+yarn start:dev | run development server
+yarn storybook | run Storybook development server
+yarn build-storybook | generate build pack for storybook
+
+## Create a project from this repository
+
+```sh
+yarn create next-app -e https://github.com/rafaelmonteiroarj/boilerplate-frontend-nextjs ${name_project}
+```
 
 
-## Saber mais
+## More
 
-Para saber mais sobre Next.js, dê uma olhada nos seguintes recursos:
+To learn more about Next.js, take a look at the following resources:
 
-- [Documentação Next.js] (https://nextjs.org/docs) - aprenda sobre os recursos e API do Next.js.
-- [Aprenda Next.js] (https://nextjs.org/learn) - um tutorial interativo Next.js.
+- [Next.js Documentation] (https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js] (https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Você pode verificar [o repositório Next.js GitHub] (https://github.com/vercel/next.js/) - seus comentários e contribuições são bem-vindos!
+You can check out [the Next.js GitHub repository] (https://github.com/vercel/next.js/) - your comments and contributions are welcome!
 
-## Implementar no Vercel
+## Implement in Vercel
 
-A maneira mais fácil de implantar seu aplicativo Next.js é usar a [Plataforma Vercel] (https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app -readme) dos criadores do Next.js.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform] (https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app -readme) from the creators of Next.js.
 
-Confira nossa [documentação de implantação do Next.js] (https://nextjs.org/docs/deployment) para obter mais detalhes.
+Check out our [Next.js deployment documentation] (https://nextjs.org/docs/deployment) for more details.
